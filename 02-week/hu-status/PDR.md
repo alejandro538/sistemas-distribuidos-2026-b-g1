@@ -1,4 +1,4 @@
-# PDR — Marketplace Agrícola Huila (MVP)
+    # PDR — Marketplace Agrícola Huila (MVP)
 
 ## 1. Contexto y problema
 
@@ -22,7 +22,7 @@ Separarlos en servicios independientes permite escalar y fallar de forma aislada
 
 - Permitir registro y autenticación de usuarios con perfil dual (comprador/vendedor).
 - Permitir que el vendedor gestione (crear, editar, eliminar) sus productos publicados.
-- Permitir que el comprador navegue y filtre el catálogo de productos disponibles.
+- Permitir que el comprador navegue y filtre el catálogo de productos disponibles. 
 - Permitir que comprador y vendedor accedan a la información de contacto del otro para negociar la venta fuera de la plataforma.
 - Permitir calificación mutua entre comprador y vendedor tras confirmar que hubo contacto/transacción.
 - Notificar por correo eventos relevantes (nuevo contacto, nueva calificación).
