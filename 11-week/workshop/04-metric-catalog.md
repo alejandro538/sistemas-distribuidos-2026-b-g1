@@ -1,4 +1,4 @@
-# CP3 - Metric Catalog
+﻿# CP4 - Metric Catalog
 
 This catalog describes the reference instrumentation in [`03-instrumentation`](03-instrumentation/README.md). The metric code is not connected to the private application repository, so these are proposed metrics, not measurements from a running deployment.
 
