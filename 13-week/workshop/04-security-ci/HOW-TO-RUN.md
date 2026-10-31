@@ -26,3 +26,9 @@ The test signs a valid BUYER JWT with the application's `JwtEncoder`, sends it t
 ## Observed result
 
 Observed local result: **PASS** (exit code 0). Maven reported `Tests run: 1, Failures: 0, Errors: 0, Skipped: 0` and `BUILD SUCCESS`. The test sent a valid BUYER JWT through the application's MVC and Spring Security configuration, received HTTP 403 for the producer-only endpoint, and verified no `ProductService` interaction. It ran against a disposable copy; the source backend was not modified.
+
+## CP8 verification (2026-10-30)
+
+- Re-ran the negative authorization test using the command above. Observed result: **PASS**, `Tests run: 1, Failures: 0, Errors: 0, Skipped: 0`; Maven reported `BUILD SUCCESS` (exit code 0).
+- Parsed `.github/workflows/w13-security.yml` with SnakeYAML 2.6. YAML syntax was accepted, and the parser found the three expected jobs: `secret-scan`, `dependency-audit`, and `authorization-regression`.
+- GitHub PR #15 still displayed zero checks and “Workflow runs completed with no jobs” at the time of this verification. This local YAML parse and test do not claim that GitHub Actions ran.
