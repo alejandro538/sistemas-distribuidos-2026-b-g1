@@ -22,17 +22,19 @@
 - CP2: Submitted the STRIDE analysis for the webhook boundary in [PR #85](https://github.com/code-corhuila/market-agri-docs/pull/85).
 - CP3: Opened three security backlog issues: [#93](https://github.com/code-corhuila/market-agri-docs/issues/93), [#94](https://github.com/code-corhuila/market-agri-docs/issues/94), and [#95](https://github.com/code-corhuila/market-agri-docs/issues/95).
 - CP4: Added Gitleaks, Maven/npm dependency audits, and a negative authorization regression test in [course PR #15](https://github.com/code-corhuila/sistemas-distribuidos-2026-b-g1/pull/15). The test passed locally; the GitHub PR has not produced job results.
+- CP5: Peer review of a classmate's STRIDE pull request is not recorded yet. The HU status was updated, but that does not replace the required review comment.
 - CP6: Refined the STRIDE PR #85 description to reflect the completed six-threat analysis. No reviewer comments were visible in the screenshots checked.
 - CP7: Checked issue stories, STRIDE categories, risks, acceptance criteria, and labels. Issues #93 and #94 have `security` and `P0`; issue #95 has `security` and `P1`. Adding all three issues to the team Project remains to be confirmed.
 - CP8: Re-ran the negative authorization test successfully (1 test, 0 failures) and parsed the workflow YAML, which contains the three expected jobs.
+- CP9: The personal implementation plan in the reflection document and final closure of this HU status are still pending; they must be completed by the student.
 
 ## 3. Blockers and risks
 - GitHub Actions has not produced job results for PR #15. Its check screen showed zero checks and "Workflow runs completed with no jobs". No Actions run URL is available.
 - The GitHub issue Project picker returned "No projects were found" for issues #93, #94, and #95. The team Project name or access is needed before adding them.
-- A review comment on a classmate's STRIDE PR and the personal CP9 implementation plan are not yet recorded here.
+- CP5 peer-review evidence, the team's GitHub Project association for the three issues, and the student-written CP9 implementation plan remain unverified or pending.
 
 ## 4. Plan for next week
-- Add issues #93, #94, and #95 to the team Project; complete the peer review; write the CP9 implementation plan in the reflection document; then submit the final links in Moodle. Ask a maintainer to clarify the missing GitHub Actions jobs.
+- Confirm the team Project and GitHub Actions status with the course team, complete and record the peer review if still accepted, and finish the student-written CP9 implementation plan if the instructor permits late completion.
 
 ## 5. Compliance self-check
 - [x] Conventional Commits - `type(scope): summary`
